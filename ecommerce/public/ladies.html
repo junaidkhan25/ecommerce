@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+</style>
+
+<body>
+  <center>
+    <div>
+      <a href="./index.html">index</a>
+      <a href="./gents.html">Gents</a>
+      <a href="./babies.html">Babies</a>
+      <a href="./perfume.html">perfume</a>
+    </div> <br><br><br>
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://content.rolex.com/dam/2021/upright-bba-with-shadow/m126281rbr-0011.png?impolicy=v6-upright&imwidth=270"
+          width="200" , height="200">
+        <p>price 100$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="./Images/watch.jpg" width="200" , height="200">
+        <p>price 500$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="./Images/lux3.jpg" width="200" , height="200">
+        <p>price 110$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img
+          src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1562942889-screen-shot-2019-07-12-at-10-46-49-am-1562942829.png?crop=1xw:1xh;center,top&resize=480:*"
+          width="200" , height="200">
+        <p>price 900$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="https://i.pinimg.com/originals/db/16/21/db16218ae2df9da644e7e84384ed5147.jpg" width="200" ,
+          height="200">
+        <p>price 900$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+
+
+  </center>
+
+
+</body>
+
+</html>

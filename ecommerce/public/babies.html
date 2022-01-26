@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <style>
+    .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+  </style>
+
+  <body>
+    <center>
+      <div>
+        <a href="./ladies.html"> Ladies</a>
+        <a href="./gents.html">Gents</a>
+        <a href="./index.html">index</a>
+        <a href="./perfume.html">perfume</a>
+      </div> <br><br><br>
+      <div class="row">
+        <div class="column">
+          <img src="https://pyxis.nymag.com/v1/imgs/fca/5e7/12c37311df4054891ffaca4a7e6d9dd117.2x.rsquare.w600.jpg"
+            width="200" , height="200">
+          <p>price 100$</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="column">
+          <img src="./Images/animal1.jpg" width="200" , height="200">
+          <p>price 500$</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="column">
+          <img src="./Images/toy2.jpg" width="200" , height="200">
+          <p>price 110$</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="column">
+          <img src="https://static-01.daraz.pk/p/cf144c5a30182e021f6aab6ef62d91d6.jpg" width="200" , height="200">
+          <p>price 900$</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+        <div class="column">
+          <img src="https://images.agoramedia.com/wte3.0/gcms/VTech-Sit-to-Stand-Learning-Walker.jpg" width="200" ,
+            height="200">
+          <p>price 900$</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+      </div>
+
+
+    </center>
+
+
+  </body>
+
+</html>

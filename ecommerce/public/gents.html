@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+</style>
+
+<body>
+  <center>
+    <div>
+      <a href="./ladies.html"> Ladies</a>
+      <a href="./index.html">index</a>
+      <a href="./babies.html">Babies</a>
+      <a href="./perfume.html">perfume</a>
+    </div> <br><br><br>
+    <div class="row">
+      <div class="column">
+        <img src="https://cdn.shopify.com/s/files/1/0627/5517/products/ChronoSRoseGold_332x@2x.jpg?v=1585715221"
+          width="200" , height="200">
+        <p>price 100$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="./Images/men1.jpg" width="200" , height="200">
+        <p>price 500$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="./Images/men2.jpg" width="200" , height="200">
+        <p>price 110$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="https://m.media-amazon.com/images/I/61L0pjQz74L._AC_UY550_.jpg" width="200" , height="200">
+        <p>price 900$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+      <div class="column">
+        <img src="https://my-live-01.slatic.net/p/9880b443d31d58fd219108a9e19d5370.jpg" width="200" , height="200">
+        <p>price 900$</p>
+        <p><button>Add to Cart</button></p>
+      </div>
+    </div>
+
+
+  </center>
+
+
+</body>
+
+</html>
